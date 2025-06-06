@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+    <title>BMI Wizard : Your Health Navigator</title>
+</head>
+
+<body>
+    <nav>
+        <button class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <label class="logo"><a href="#section">BMI Wizard</a></label>
+        <ul>
+            <li class="li"><a href="#cat">BMI Categories</a></li>
+            <li class="li"><a href="#c">BMI Calculator</a></li>
+            <li class="li"><a href="./about.html" target="_blank">About Us</a></li>
+            <label class="switch">
+                <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="#ffd43b">
+                            <circle r="5" cy="12" cx="12"></circle>
+                            <path
+                                d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
+                            </path>
+                        </g>
+                    </svg></span>
+                <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+                        </path>
+                    </svg></span>
+                <input type="checkbox" class="input">
+                <span class="slider"></span>
+            </label>
+        </ul>
+    </nav>
+    <section id="section" class="hidden">
+        <div class="mainImg">
+            <img src="./Images/5.jpeg" alt="" height="300px">
+        </div>
+        <div class="what">
+            <h2>What is BMI?</h2>
+            <p>
+                Big Macs Inside? Belly Might Implode? Good guesses, but BMI actually stands for <i><b>Body Mass Index</b></i>, and it’s a really important measure for anyone trying to lose weight. BMI is a simple numerical measure of your weight in relation to your height, it evaluates an individual's weight status based on their height and weight. Calculated by dividing one's weight in kilograms by the square of their height in meters, BMI serves as a screening
+                tool for assessing weight status in adults.
+                <br><br>
+                BMI is used differently for people aged 2 to 20. It is calculated in the same way as for adults but then compared to typical values for other children or youth of the same age. Instead of comparison against fixed thresholds for underweight and overweight, the BMI is compared against the percentiles for children of the same sex and age.
+                A BMI that is less than the 5th percentile is considered underweight and above the 95th percentile is considered obese. Children with a BMI between the 85th and 95th percentile are considered to be overweight. <br>
+                <a href="https://en.wikipedia.org/wiki/Body_mass_index" style="color: rgb(0, 153, 255);"
+                    target="_blank">Know more About BMI</a>
+            </p>
+        </div>
+    </section>
+    <div id="cat"></div>
+    <hr>
+    <section id="aside" class="hidden">
+        <div class="mainImg">
+            <img src="./Images/cate.jpg" alt="" height="250px" width="400px">
+        </div>
+        <div class="what">
+            <h2>Understanding BMI Categories</h2>
+            <p>
+                Once calculated, BMI values fall into different categories: <br><br>
+                <ol>
+                    <li>
+                        Underweight: BMI below 18.5 indicates that a person may be underweight, which can pose health risks such
+                        as weakened immune system, osteoporosis, and fertility issues.
+                    </li><br>
+                    <li>
+                        Normal weight: BMI ranging from 18.5 to 24.9 suggests a healthy weight range for most adults. However,it's important to note that BMI does not differentiate between muscle mass and fat mass, so individuals with high muscle mass may fall into this category despite being fit.
+                    </li><br>
+                    <li>
+                        Overweight: BMI between 25 and 29.9 indicates excess weight, which may increase the risk of developing various health conditions including heart disease, type 2 diabetes, and certain cancers.
+
+                    </li><br>
+                    <li>
+                        Obesity: BMI of 30 or higher signifies obesity, a condition associated with significantly increased health risks, including hypertension, stroke, sleep apnea, and joint problems.
+                    </li><br>
+                    <li>
+                        Extreme Obesity: BMI of 35 or higher is classified as extreme obesity. Individuals in this category face
+                        even greater health risks, including severe cardiovascular disease, diabetes, and reduced life expectancy.
+                    </li><br>
+            </ol>
+            </p>
+        </div>
+    </section>
+    <div id="c"></div>
+    <hr>
+    <main class="hidden">
+        <h1>Check Your BMI</h1>
+        <div class="box" id="box">
+            <form>
+                <div class="inp1 inp">
+                    <span>Gender:</span>
+                    <label class="gender">
+                        <input type="radio" name="gender" id="male">
+                        <div class="radio-btn">
+                            <img src="./Images/male.jpg" alt="" height="40px" width="40px">
+                            <p>Male</p>
+                        </div>
+                    </label>
+                    <label class="gender female">
+                        <input type="radio" name="gender" id="female">
+                        <div class="radio-btn">
+                            <img src="./Images/female.jpg" alt="" height="40px" width="40px">
+                            <p>Female</p>
+                        </div>
+                    </label>
+                    <label class="gender other">
+                        <input type="radio" name="gender" id="other">
+                        <div class="radio-btn">
+                            <p>Other</p>
+                        </div>
+                    </label>
+
+                </div>
+                <div class="inp2 inp">
+                    <label for="age">Age : </label>
+                    <input type="text" id="age" required autocomplete="off">
+                </div>
+
+                <div class="inp3 inp">
+                    <label for="weight">Weight : </label>
+                    <input type="text" id="kgs" placeholder="kgs" required autocomplete="off">
+                    <input type="text" id="lbs" class="none" placeholder="lbs" required autocomplete="off">
+                    <button class="units" id="w">in lbs</button>
+                </div>
+                <div class="inp4 inp">
+                    <label for="weight">Height : </label>
+                    <input type="text" id="cms" placeholder="cms" required autocomplete="off">
+                    <input type="text" id="fts" class="none" placeholder="feets" required autocomplete="off">
+                    <input type="text" id="ins" class="none" placeholder="inches" required autocomplete="off">
+                    <button class="units" id="h">in fts</button>
+                </div>
+                <div class="sub">
+                    <button class="cta" type="submit">
+                        <span>Calculate</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="main hidden">
+        <div class="res">Your BMI : <span class="val"></span></div>
+        <div class="cond">
+            <p></p>
+            <div class="mode">
+                <a href="" target="_blank" >Simple</a>
+                <a href="" target="_blank" >Moderate</a>
+                <a href="" target="_blank" >Challenging</a>
+            </div>
+        </div>
+        <button class="Btn">
+            <div class="sign"><svg viewBox="0 0 512 512">
+                    <path
+                        d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+                    </path>
+                </svg></div>
+            <div class="text">Back</div>
+        </button>
+    </div>
+    <script src="https://kit.fontawesome.com/0ff8f72c28.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
